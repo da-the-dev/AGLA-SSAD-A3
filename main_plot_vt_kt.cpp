@@ -57,7 +57,7 @@ int main() {
 
     // Setup GNUPlot
     fprintf(pipe, "set xrange [%d:%d]\n", 0, 70);
-    fprintf(pipe, "set yrange [%d:%d]\n", 0, 150);
+    fprintf(pipe, "set yrange [%d:%d]\n", 0, 400);
 //    fprintf(pipe, "set xtics 1\n");
 //    fprintf(pipe, "set ytics 1\n");
     fprintf(pipe, "set grid xtics ytics\n");
